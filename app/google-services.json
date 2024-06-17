@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "214017520103",
+    "firebase_url": "https://mvvmtask-30ceb-default-rtdb.firebaseio.com",
+    "project_id": "mvvmtask-30ceb",
+    "storage_bucket": "mvvmtask-30ceb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214017520103:android:219b0a09364a26b50a4d42",
+        "android_client_info": {
+          "package_name": "com.example.mvvm_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXJThOwUDbItj9DXdV_Z6jQxMwc0E9zhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
