@@ -13,6 +13,63 @@
         android:theme="@style/Theme.MVVM_TASK"
         tools:targetApi="31">
         <activity
+            android:name=".adapter.ProductAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".activity.UpdateProductActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".viewmodel.ProductViewModel"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".utlis.Imageutils"
+            android:exported="false" />
+        <activity
+            android:name=".model.ProductModel"
+            android:exported="false" />
+        <activity
+            android:name=".utlis.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AdduserActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Add_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.DashBoardActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".activity.SignupActivity"
             android:exported="true">
             <intent-filter>
@@ -30,9 +87,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".activity.DashBoardActivity"
-            android:exported="false" />
         <activity
             android:name=".activity.LoginActivity"
             android:exported="true">

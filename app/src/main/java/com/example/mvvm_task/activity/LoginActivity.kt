@@ -1,4 +1,4 @@
-package com.example.crudapplication.ui.activity
+package com.example.mvvm_task.activity
 
 import android.content.Intent
 import android.os.Bundle
